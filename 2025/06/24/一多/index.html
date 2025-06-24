@@ -1,0 +1,1486 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="HarmonyOS一多学习, 太阳神小赖Blog~">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>HarmonyOS一多学习 | 太阳神小赖Blog~</title>
+<link rel="stylesheet" type="text/css" href="/css/loading.css">
+
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+
+   <style>
+    body{
+       background-image: url(https://cdn.jsdelivr.net/gh/Tokisaki-Galaxy/res/site/medias/background.jpg);
+       background-repeat:no-repeat;
+       background-size:cover;
+       background-attachment:fixed;
+    }
+</style>
+
+
+
+<body>
+
+  <div id="loading-box">
+    <div class="loading-left-bg"></div>
+    <div class="loading-right-bg"></div>
+    <div class="spinner-box">
+      <div class="configure-border-1">
+        <div class="configure-core"></div>
+      </div>
+      <div class="configure-border-2">
+        <div class="configure-core"></div>
+      </div>
+      <div class="loading-word">加载中...</div>
+    </div>
+  </div>
+  <!-- 页面加载动画 -->
+  <script>
+    $(document).ready(function () {
+      document.body.style.overflow = 'auto';
+      document.getElementById('loading-box').classList.add("loaded")
+    })
+  </script>
+
+
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">太阳神小赖Blog~</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">太阳神小赖Blog~</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/30.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">HarmonyOS一多学习</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2025-06-24
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2025-06-24
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    5.7k
+                </div>
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p>AGC平台：</p>
+<p>**华为AGC（AppGallery Connect）**是华为为开发者提供的一站式应用开发与运营服务平台，主要服务于华为生态（如HMS移动应用、HarmonyOS应用等）。</p>
+<p><strong>主要用途：华为应用上架，开通华为服务</strong></p>
+<ul>
+<li><strong>快速开发</strong>：提供开发工具、API和SDK，降低开发门槛。</li>
+<li><strong>应用上架</strong>：支持应用发布到华为应用市场（AppGallery）。</li>
+<li><strong>运营增长</strong>：助力开发者提升应用活跃度、用户留存和变现能力。</li>
+</ul>
+<p>利用AGC平台创建项目（对内）+应用（对外，供别人进行下载）</p>
+<p>应用包名（利用驼峰命名法，确保唯一性）：com.公司域名.hm(此处是鸿蒙应用，如果是安卓可改为az)_**（应用名）</p>
+<h1 id="一、一多定义"><a href="#一、一多定义" class="headerlink" title="一、一多定义"></a>一、一多定义</h1><p><img src="/../images/$%7Bfiilename%7D/1747923243041-7d213228-dfce-4805-a641-35abb20a27bb.png" alt="img"></p>
+<p>“一次开发、多端部署”简称“一多”：一套代码工程，一次开发上架，多端按需部署。</p>
+<p>为了实现这个目标，主要解决 3 个核心问题：</p>
+<p><img src="/../images/$%7Bfiilename%7D/1717126404552-86b1ce20-7e84-4893-a336-3f416a6ec755.png" alt="img"></p>
+<ol>
+<li><strong>页面适配问题：界面级一多 - ArkUI（响应式布局&#x2F;自适应布局）</strong></li>
+<li><strong>功能兼容问题：功能级一多</strong></li>
+<li><strong>工程如何组织：工程级一多 - 模块化按需部署（三层架构）</strong></li>
+</ol>
+<h1 id="二、界面级一多能力"><a href="#二、界面级一多能力" class="headerlink" title="二、界面级一多能力"></a><strong>二、界面级一多能力</strong></h1><p><strong>此处主要解决的是1.界面适配问题</strong></p>
+<p><img src="/../images/$%7Bfiilename%7D/1747923696761-44256009-135a-4f4c-a365-4a62e7816e13.png" alt="img"></p>
+<p>界面级一多能力有 2 类：</p>
+<ol>
+<li><strong>自适应布局:</strong> 略微调整界面结构 - 第一个图片以及第二个图片，如果界面宽度增大，对应显示商品也会进行适应增加，界面略微进行调整</li>
+<li>**响应式布局：**比较大的界面调整 - 例如第三个平板界面（导航栏移动到左侧 界面进行了较大程度的调整）</li>
+</ol>
+<h2 id="2-1-自适应布局"><a href="#2-1-自适应布局" class="headerlink" title="2.1 自适应布局"></a>2.1 自适应布局</h2><p><img src="/../images/$%7Bfiilename%7D/1747963680355-1ac66906-cd87-4216-a6ee-84a42c605987.png" alt="img"></p>
+<h3 id="2-1-1-自适应拉伸"><a href="#2-1-1-自适应拉伸" class="headerlink" title="2.1.1 自适应拉伸"></a>2.1.1 自适应拉伸</h3><h4 id="2-1-1-1-拉伸能力（增大or减小区域分配给容器组件）"><a href="#2-1-1-1-拉伸能力（增大or减小区域分配给容器组件）" class="headerlink" title="2.1.1.1 拉伸能力（增大or减小区域分配给容器组件）"></a>2.1.1.1 拉伸能力（增大or减小区域分配给容器组件）</h4><p>拉伸能力是指容器组件尺寸发生变化时，增加或减小的空间全部分配给容器组件内指定区域。</p>
+<p>1&gt; <strong>flexGrow &#x2F;</strong> <strong>flexShrink</strong></p>
+<p><strong>该部分重点为了解layoutweight与flenGrow &#x2F;</strong> <strong>flexShrink之间的区别</strong></p>
+<p>**举一个例子：为Image图片添加layoutweight可以发现确实可以进行容器宽度的匹配，但是视觉效果不佳，**<strong>layoutweight会同时对组件进行缩小与放大</strong></p>
+<p><img src="/../images/$%7Bfiilename%7D/1747963975108-d9cb26c7-575c-435b-8b48-60449ff9edb6.png" alt="img"></p>
+<p>如果想要只在<strong>特定情况对组件进行增大或者缩小</strong>，就要使用到<strong>flexGrow &#x2F;</strong> <strong>flexShrink</strong></p>
+<p><strong>代码中为Row Image添加该属性，对Row添加.flexGrow(0).flexShrink(1)表示容器只会缩小不会增大</strong></p>
+<p><strong>对Image添加.flexGrow(1).flexShrink(0)表示容器只会增大不会缩小</strong></p>
+<p><a target="_blank" rel="noopener" href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/adaptive-layout-V5#%E6%8B%89%E4%BC%B8%E8%83%BD%E5%8A%9B"><strong>flexShrink&#x2F;flexGrow</strong></a></p>
+<p><img src="/../images/$%7Bfiilename%7D/1747964521978-91c43abd-5e76-4c04-9481-458ef89d068e.png" alt="img"></p>
+<p><img src="/../images/$%7Bfiilename%7D/1747964340965-84cb327a-558b-4612-9aa6-2224e6dfd115.png" alt="img"></p>
+<h4 id="2-1-1-2-均分能力（区域分配给空白）"><a href="#2-1-1-2-均分能力（区域分配给空白）" class="headerlink" title="2.1.1.2 均分能力（区域分配给空白）"></a>2.1.1.2 均分能力（区域分配给空白）</h4><p>文字和开关的尺寸固定，仅有中间空白区域（Blank组件）随父容器尺寸变化而伸缩。</p>
+<p>均分能力：blank</p>
+<p><img src="/../images/$%7Bfiilename%7D/1747965788394-ae027f29-a016-461b-804d-135e80c55ee0.png" alt="img"></p>
+<p><img src="/../images/$%7Bfiilename%7D/1747965821838-46eab905-20b5-4fb0-8f69-82b2cb83b8cd.png" alt="img"></p>
+<p><strong>使用blank组件进行中间部分的拉伸</strong></p>
+<p>均分能力： justifyContent(FlexAlign.SpaceBetween)属性</p>
+<p><img src="/../images/$%7Bfiilename%7D/1747972785863-23cea261-408d-430d-a9c1-bd767321dc35.png" alt="img"></p>
+<p>通过设置该属性可以使组件按照父组件尺寸进行适应分布</p>
+<p><img src="/../images/$%7Bfiilename%7D/1747972956612-8006fe69-9748-4af1-bec6-e75cff9c7cd3.png" alt="img"></p>
+<h3 id="2-1-2-自适应缩放"><a href="#2-1-2-自适应缩放" class="headerlink" title="2.1.2 自适应缩放"></a>2.1.2 自适应缩放</h3><h4 id="2-1-2-1-占比能力"><a href="#2-1-2-1-占比能力" class="headerlink" title="2.1.2.1 占比能力"></a>2.1.2.1 占比能力</h4><p>占比能力是指子组件的宽高按照<strong>预设的比例</strong>，随父容器组件发生变化。– layoutweight属性</p>
+<p><img src="/../images/$%7Bfiilename%7D/1747985101114-7ce19479-7313-4365-844e-3ce7d4dd9b56.png" alt="img"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br></pre></td><td class="code"><pre><span class="line">@Entry</span><br><span class="line">@Component</span><br><span class="line">struct ProportionCapabilitySample &#123;</span><br><span class="line">  @State rate: number = 0.5</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  // 底部滑块，可以通过拖拽滑块改变容器尺寸</span><br><span class="line">  @Builder slider() &#123;</span><br><span class="line">    Slider(&#123; value: 100, min: 25, max: 50, style: SliderStyle.OutSet &#125;)</span><br><span class="line">      .blockColor(Color.White)</span><br><span class="line">      .width(&#x27;60%&#x27;)</span><br><span class="line">      .height(50)</span><br><span class="line">      .onChange((value: number) =&gt; &#123;</span><br><span class="line">        this.rate = value / 100</span><br><span class="line">      &#125;)</span><br><span class="line">      .position(&#123; x: &#x27;20%&#x27;, y: &#x27;80%&#x27; &#125;)</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  build() &#123;</span><br><span class="line">    Column() &#123;</span><br><span class="line">      Column() &#123;</span><br><span class="line">        Row() &#123;</span><br><span class="line">          Column() &#123;</span><br><span class="line">            Image($r(&quot;app.media.ic_public_play_last&quot;))</span><br><span class="line">              .width(48)</span><br><span class="line">              .height(48)</span><br><span class="line">          &#125;</span><br><span class="line">          .height(96)</span><br><span class="line">          .layoutWeight(1)  // 设置子组件在父容器主轴方向的布局权重</span><br><span class="line">          .justifyContent(FlexAlign.Center)</span><br><span class="line">          .alignItems(HorizontalAlign.Center)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">          Column() &#123;</span><br><span class="line">            Image($r(&quot;app.media.ic_public_pause&quot;))</span><br><span class="line">              .width(48)</span><br><span class="line">              .height(48)</span><br><span class="line">          &#125;</span><br><span class="line">          .height(96)</span><br><span class="line">          .layoutWeight(1)  // 设置子组件在父容器主轴方向的布局权重</span><br><span class="line">          .backgroundColor(&#x27;#66F1CCB8&#x27;)</span><br><span class="line">          .justifyContent(FlexAlign.Center)</span><br><span class="line">          .alignItems(HorizontalAlign.Center)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">          Column() &#123;</span><br><span class="line">            Image($r(&quot;app.media.ic_public_play_next&quot;))</span><br><span class="line">              .width(48)</span><br><span class="line">              .height(48)</span><br><span class="line">          &#125;</span><br><span class="line">          .height(96)</span><br><span class="line">          .layoutWeight(1)  // 设置子组件在父容器主轴方向的布局权重</span><br><span class="line">          .justifyContent(FlexAlign.Center)</span><br><span class="line">          .alignItems(HorizontalAlign.Center)</span><br><span class="line">        &#125;</span><br><span class="line">        .width(this.rate * 100 + &#x27;%&#x27;)</span><br><span class="line">        .height(96)</span><br><span class="line">        .borderRadius(16)</span><br><span class="line">        .backgroundColor(&#x27;#FFFFFF&#x27;)</span><br><span class="line">      &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">      this.slider()</span><br><span class="line">    &#125;</span><br><span class="line">    .width(&#x27;100%&#x27;)</span><br><span class="line">    .height(&#x27;100%&#x27;)</span><br><span class="line">    .backgroundColor(&#x27;#F1F3F5&#x27;)</span><br><span class="line">    .justifyContent(FlexAlign.Center)</span><br><span class="line">    .alignItems(HorizontalAlign.Center)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="2-1-2-2-缩放能力"><a href="#2-1-2-2-缩放能力" class="headerlink" title="2.1.2.2 缩放能力"></a>2.1.2.2 缩放能力</h4><p>缩放能力是指子组件的宽高按照预设的比例，随容器组件发生变化，且变化过程中子组件的<strong>宽高比不变</strong>。</p>
+<p>aspectRatio - 固定图片宽高比</p>
+<p>不加该属性组件的宽高比会发生变化</p>
+<p><img src="/../images/$%7Bfiilename%7D/1747985918541-a0652966-6fbc-4f4b-adea-cd23d4ab226a.png" alt="img"></p>
+<p>添加aspectRatio（）属性 - 图片宽高比固定</p>
+<p><img src="/../images/$%7Bfiilename%7D/1747986417497-cafd3aac-f1de-4809-b3ae-550fda48c455.png" alt="img"></p>
+<p><strong>注意点：</strong></p>
+<p>有的时候会加载网络图片 - 网络速度慢的时候图片会加载不出来（例如下图如果网络图片加载不出来，文字会占据图片的位置） - 此时需要预留出马上要加载出来的图片位置 - aspectRatio即可实现预留图片位置</p>
+<p><img src="/../images/$%7Bfiilename%7D/1747986474268-5029420b-1b81-401a-9826-2c3c2738900b.png" alt="img"></p>
+<h3 id="2-1-3-自适应延伸"><a href="#2-1-3-自适应延伸" class="headerlink" title="2.1.3 自适应延伸"></a>2.1.3 自适应延伸</h3><h4 id="2-1-3-1-延伸能力"><a href="#2-1-3-1-延伸能力" class="headerlink" title="2.1.3.1 延伸能力"></a>2.1.3.1 延伸能力</h4><p><img src="/../images/$%7Bfiilename%7D/1748404209829-639ed929-0b06-466c-b3ef-df911f7c83bb.png" alt="img"></p>
+<p><a target="_blank" rel="noopener" href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/adaptive-layout-V5#%E5%BB%B6%E4%BC%B8%E8%83%BD%E5%8A%9B">https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/adaptive-layout-V5#%E5%BB%B6%E4%BC%B8%E8%83%BD%E5%8A%9B</a></p>
+<ol>
+<li><strong>延伸能力使用List组件进行实现</strong></li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line">@Entry</span><br><span class="line">@Component</span><br><span class="line">struct ExtensionCapabilitySample1 &#123;</span><br><span class="line">  @State rate: number = 0.60</span><br><span class="line">  readonly appList: number [] = [0, 1, 2, 3, 4, 5, 6, 7]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  // 底部滑块，可以通过拖拽滑块改变容器尺寸</span><br><span class="line">  @Builder slider() &#123;</span><br><span class="line">    Slider(&#123; value: this.rate * 100, min: 8, max: 60, style: SliderStyle.OutSet &#125;)</span><br><span class="line">      .blockColor(Color.White)</span><br><span class="line">      .width(&#x27;60%&#x27;)</span><br><span class="line">      .height(50)</span><br><span class="line">      .onChange((value: number) =&gt; &#123;</span><br><span class="line">        this.rate = value / 100</span><br><span class="line">      &#125;)</span><br><span class="line">      .position(&#123; x: &#x27;20%&#x27;, y: &#x27;80%&#x27; &#125;)</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  build() &#123;</span><br><span class="line">    Column() &#123;</span><br><span class="line">      Row(&#123; space: 10 &#125;) &#123;</span><br><span class="line">        // 通过List组件实现隐藏能力</span><br><span class="line">        List(&#123; space: 10 &#125;) &#123;</span><br><span class="line">          ForEach(this.appList, (item:number) =&gt; &#123;</span><br><span class="line">            ListItem() &#123;</span><br><span class="line">              Column() &#123;</span><br><span class="line">                Image($r(&quot;app.media.startIcon&quot;)).width(48).height(48).margin(&#123; top: 8 &#125;)</span><br><span class="line">                Text(&#x27;App name&#x27;)</span><br><span class="line">                  .width(64)</span><br><span class="line">                  .height(30)</span><br><span class="line">                  .lineHeight(15)</span><br><span class="line">                  .fontSize(12)</span><br><span class="line">                  .textAlign(TextAlign.Center)</span><br><span class="line">                  .margin(&#123; top: 8 &#125;)</span><br><span class="line">                  .padding(&#123; bottom: 15 &#125;)</span><br><span class="line">              &#125;.width(80).height(102)</span><br><span class="line">            &#125;.width(80).height(102)</span><br><span class="line">          &#125;)</span><br><span class="line">        &#125;</span><br><span class="line">        .padding(&#123; top: 16, left: 10 &#125;)</span><br><span class="line">        .listDirection(Axis.Horizontal) // list列表的方向</span><br><span class="line">        // .lanes(2) // 交叉轴行列数</span><br><span class="line">        .width(&#x27;100%&#x27;)</span><br><span class="line">        .height(118)</span><br><span class="line">        .borderRadius(16)</span><br><span class="line">        .backgroundColor(Color.White)</span><br><span class="line">      &#125;</span><br><span class="line">      .width(this.rate * 100 + &#x27;%&#x27;)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">      this.slider()</span><br><span class="line">    &#125;</span><br><span class="line">    .width(&#x27;100%&#x27;)</span><br><span class="line">    .height(&#x27;100%&#x27;)</span><br><span class="line">    .backgroundColor(&#x27;#F1F3F5&#x27;)</span><br><span class="line">    .justifyContent(FlexAlign.Center)</span><br><span class="line">    .alignItems(HorizontalAlign.Center)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="/../images/$%7Bfiilename%7D/1748404145683-6f47deb7-32f6-4ff9-bd15-1d82e15f4a46.png" alt="img"></p>
+<ol>
+<li><strong>通过Scroll以及Row组件进行实现伸缩效果</strong></li>
+</ol>
+<p>实现思路： 在Row组件外嵌套一个Scroll容器组件</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line">@Entry</span><br><span class="line">@Component</span><br><span class="line">struct ExtensionCapabilitySample2 &#123;</span><br><span class="line">  private scroller: Scroller = new Scroller()</span><br><span class="line">  @State rate: number = 0.60</span><br><span class="line">  @State appList: number [] = [0, 1, 2, 3, 4, 5, 6, 7]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  // 底部滑块，可以通过拖拽滑块改变容器尺寸</span><br><span class="line">  @Builder slider() &#123;</span><br><span class="line">    Slider(&#123; value: this.rate * 100, min: 8, max: 60, style: SliderStyle.OutSet &#125;)</span><br><span class="line">      .blockColor(Color.White)</span><br><span class="line">      .width(&#x27;60%&#x27;)</span><br><span class="line">      .height(50)</span><br><span class="line">      .onChange((value: number) =&gt; &#123;</span><br><span class="line">        this.rate = value / 100;</span><br><span class="line">      &#125;)</span><br><span class="line">      .position(&#123; x: &#x27;20%&#x27;, y: &#x27;80%&#x27; &#125;)</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  build() &#123;</span><br><span class="line">    Column() &#123;</span><br><span class="line">      // 通过Scroll和Row组件实现隐藏能力</span><br><span class="line">      Scroll(this.scroller) &#123;</span><br><span class="line">        Row(&#123; space: 10 &#125;) &#123;</span><br><span class="line">          ForEach(this.appList, () =&gt; &#123;</span><br><span class="line">            Column() &#123;</span><br><span class="line">              Image($r(&quot;app.media.startIcon&quot;)).width(48).height(48).margin(&#123; top: 8 &#125;)</span><br><span class="line">              Text(&#x27;App name&#x27;)</span><br><span class="line">                .width(64)</span><br><span class="line">                .height(30)</span><br><span class="line">                .lineHeight(15)</span><br><span class="line">                .fontSize(12)</span><br><span class="line">                .textAlign(TextAlign.Center)</span><br><span class="line">                .margin(&#123; top: 8 &#125;)</span><br><span class="line">                .padding(&#123; bottom: 15 &#125;)</span><br><span class="line">            &#125;.width(80).height(102)</span><br><span class="line">          &#125;)</span><br><span class="line">        &#125;</span><br><span class="line">        .padding(&#123; top: 16, left: 10 &#125;)</span><br><span class="line">        .height(118)</span><br><span class="line">        .backgroundColor(Color.White)</span><br><span class="line">      &#125;</span><br><span class="line">      .scrollable(ScrollDirection.Horizontal)</span><br><span class="line">      .borderRadius(16)</span><br><span class="line">      .width(this.rate * 100 + &#x27;%&#x27;)</span><br><span class="line">      this.slider()</span><br><span class="line">    &#125;</span><br><span class="line">    .width(&#x27;100%&#x27;)</span><br><span class="line">    .height(&#x27;100%&#x27;)</span><br><span class="line">    .backgroundColor(&#x27;#F1F3F5&#x27;)</span><br><span class="line">    .justifyContent(FlexAlign.Center)</span><br><span class="line">    .alignItems(HorizontalAlign.Center)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-1-3-2-隐藏能力"><a href="#2-1-3-2-隐藏能力" class="headerlink" title="2.1.3.2 隐藏能力"></a>2.1.3.2 隐藏能力</h4><p>隐藏能力是指容器组件内的子组件，按照其预设的显示优先级，随容器组件尺寸变化显示或隐藏，其中相同显示优先级的子组件同时显示或隐藏。.displayPriority(2)  &#x2F;&#x2F; 布局优先级</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br></pre></td><td class="code"><pre><span class="line">@Entry</span><br><span class="line">@Component</span><br><span class="line">struct HiddenCapabilitySample &#123;</span><br><span class="line">  @State rate: number = 0.45</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  // 底部滑块，可以通过拖拽滑块改变容器尺寸</span><br><span class="line">  @Builder slider() &#123;</span><br><span class="line">    Slider(&#123; value: this.rate * 100, min: 10, max: 45, style: SliderStyle.OutSet &#125;)</span><br><span class="line">      .blockColor(Color.White)</span><br><span class="line">      .width(&#x27;60%&#x27;)</span><br><span class="line">      .height(50)</span><br><span class="line">      .onChange((value: number) =&gt; &#123;</span><br><span class="line">        this.rate = value / 100</span><br><span class="line">      &#125;)</span><br><span class="line">      .position(&#123; x: &#x27;20%&#x27;, y: &#x27;80%&#x27; &#125;)</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  build() &#123;</span><br><span class="line">    Column() &#123;</span><br><span class="line">      Row(&#123; space:24 &#125;) &#123;</span><br><span class="line">        Image($r(&quot;app.media.ic_public_favor&quot;))</span><br><span class="line">          .width(48)</span><br><span class="line">          .height(48)</span><br><span class="line">          .objectFit(ImageFit.Contain)</span><br><span class="line">          .displayPriority(1)  // 布局优先级</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        Image($r(&quot;app.media.ic_video_grid_9&quot;))</span><br><span class="line">          .width(48)</span><br><span class="line">          .height(48)</span><br><span class="line">          .objectFit(ImageFit.Contain)</span><br><span class="line">          .displayPriority(2)  // 布局优先级</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        Image($r(&quot;app.media.ic_video_grid_8&quot;))</span><br><span class="line">          .width(48)</span><br><span class="line">          .height(48)</span><br><span class="line">          .objectFit(ImageFit.Contain)</span><br><span class="line">          .displayPriority(3)  // 布局优先级</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        Image($r(&quot;app.media.ic_video_grid_6&quot;))</span><br><span class="line">          .width(48)</span><br><span class="line">          .height(48)</span><br><span class="line">          .objectFit(ImageFit.Contain)</span><br><span class="line">          .displayPriority(2)  // 布局优先级</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        Image($r(&quot;app.media.ic_video_grid_3&quot;))</span><br><span class="line">          .width(48)</span><br><span class="line">          .height(48)</span><br><span class="line">          .objectFit(ImageFit.Contain)</span><br><span class="line">          .displayPriority(1)  // 布局优先级</span><br><span class="line">      &#125;</span><br><span class="line">      .width(this.rate * 100 + &#x27;%&#x27;)</span><br><span class="line">      .height(96)</span><br><span class="line">      .borderRadius(16)</span><br><span class="line">      .backgroundColor(&#x27;#FFFFFF&#x27;)</span><br><span class="line">      .justifyContent(FlexAlign.Center)</span><br><span class="line">      .alignItems(VerticalAlign.Center)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">      this.slider()</span><br><span class="line">    &#125;</span><br><span class="line">    .width(&#x27;100%&#x27;)</span><br><span class="line">    .height(&#x27;100%&#x27;)</span><br><span class="line">    .backgroundColor(&#x27;#F1F3F5&#x27;)</span><br><span class="line">    .justifyContent(FlexAlign.Center)</span><br><span class="line">    .alignItems(HorizontalAlign.Center)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>实现：</strong></p>
+<p>根据代码中设置的优先级，当父容器宽度缩小时会<strong>首先隐藏优先级小的组件</strong></p>
+<p><img src="/../images/$%7Bfiilename%7D/1748507201767-9c441b0f-8602-4718-b804-65294fbfc1cb.png" alt="img"></p>
+<p><img src="/../images/$%7Bfiilename%7D/1748507139198-174dc09b-2b9d-45a8-95a6-2ddb26abed6a.png" alt="img"></p>
+<h5 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h5><p>设置优先级一般都要进行设置，如果不进行设置会默认为最小级</p>
+<h3 id="2-1-4-自适应折行"><a href="#2-1-4-自适应折行" class="headerlink" title="2.1.4 自适应折行"></a>2.1.4 自适应折行</h3><h4 id="2-1-4-1-折行能力"><a href="#2-1-4-1-折行能力" class="headerlink" title="2.1.4.1 折行能力"></a>2.1.4.1 折行能力</h4><p><strong>Flex组件</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line">@Entry</span><br><span class="line">@Component</span><br><span class="line">struct WrapCapabilitySample &#123;</span><br><span class="line">  @State rate: number = 0.7</span><br><span class="line">  readonly imageList: Resource [] = [</span><br><span class="line">    $r(&#x27;app.media.ic_video_grid_7&#x27;),</span><br><span class="line">    $r(&#x27;app.media.ic_video_grid_7&#x27;),</span><br><span class="line">    $r(&#x27;app.media.ic_video_grid_7&#x27;),</span><br><span class="line">    $r(&#x27;app.media.ic_video_grid_7&#x27;),</span><br><span class="line">    $r(&#x27;app.media.ic_video_grid_7&#x27;),</span><br><span class="line">    $r(&#x27;app.media.ic_video_grid_7&#x27;)</span><br><span class="line">  ]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  // 底部滑块，可以通过拖拽滑块改变容器尺寸</span><br><span class="line">  @Builder slider() &#123;</span><br><span class="line">    Slider(&#123; value: this.rate * 100, min: 50, max: 70, style: SliderStyle.OutSet &#125;)</span><br><span class="line">      .blockColor(Color.White)</span><br><span class="line">      .width(&#x27;60%&#x27;)</span><br><span class="line">      .onChange((value: number) =&gt; &#123;</span><br><span class="line">        this.rate = value / 100</span><br><span class="line">      &#125;)</span><br><span class="line">      .position(&#123; x: &#x27;20%&#x27;, y: &#x27;87%&#x27; &#125;)</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  build() &#123;</span><br><span class="line">    Flex(&#123; justifyContent: FlexAlign.Center, direction: FlexDirection.Column &#125;) &#123;</span><br><span class="line">      Column() &#123;</span><br><span class="line">        // 通过Flex组件warp参数实现自适应折行</span><br><span class="line">        // TODO 为什么不推荐使用flex进行布局 - 性能不如线性布局（因为需要计算什么时候需要进行换行，多了一个计算的过程）</span><br><span class="line">        Flex(&#123;</span><br><span class="line">          // TODO 需要进行折行的时候用flex组件</span><br><span class="line">          direction: FlexDirection.Row, //flex布局方向</span><br><span class="line">          alignItems: ItemAlign.Center,</span><br><span class="line">          justifyContent: FlexAlign.Center,</span><br><span class="line">          wrap: FlexWrap.Wrap //折行能力</span><br><span class="line">        &#125;) &#123;</span><br><span class="line">          ForEach(this.imageList, (item:Resource) =&gt; &#123;</span><br><span class="line">            Image(item).width(183).height(138).padding(10)</span><br><span class="line">          &#125;)</span><br><span class="line">        &#125;</span><br><span class="line">        .backgroundColor(&#x27;#FFFFFF&#x27;)</span><br><span class="line">        .padding(20)</span><br><span class="line">        .width(this.rate * 100 + &#x27;%&#x27;)</span><br><span class="line">        .borderRadius(16)</span><br><span class="line">      &#125;</span><br><span class="line">      .width(&#x27;100%&#x27;)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">      this.slider()</span><br><span class="line">    &#125;.width(&#x27;100%&#x27;)</span><br><span class="line">    .height(&#x27;100%&#x27;)</span><br><span class="line">    .backgroundColor(&#x27;#F1F3F5&#x27;)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="/../images/$%7Bfiilename%7D/1748508429594-b9cef3a1-7164-492f-917b-dd917b22f966.png" alt="img"><img src="/../images/$%7Bfiilename%7D/1748508477061-90e8e1bc-c325-4fc1-a8f1-f420721fc7cc.png" alt="img"></p>
+<h5 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h5><p>为什么不推荐使用flex进行布局 - 性能不如线性布局（因为需要计算什么时候需要进行换行，多了一个计算的过程）</p>
+<h2 id="2-2-响应式布局"><a href="#2-2-响应式布局" class="headerlink" title="2.2 响应式布局"></a>2.2 响应式布局</h2><p>比较大的界面调整</p>
+<p>自适应布局可以保证窗口尺寸在【一定范围内变化】时，页面的显示是正常的。但是将窗口尺寸【变化较大】时（如窗口宽度从400vp变化为1000vp），仅仅依靠自适应布局可能出现图片异常放大或页面内容稀疏、留白过多等问题，此时就需要借助响应式布局能力调整页面结构。</p>
+<p>响应式布局是指页面内的元素可以根据特定的特征（如窗口宽度、屏幕方向等）自动变化以适应外部容器变化的布局能力。</p>
+<p><img src="/../images/$%7Bfiilename%7D/1749801771473-b1de4694-2e19-4d27-8498-5e383fc765bb.png" alt="img"></p>
+<p>第一种是网格布局：网格布局可以有效的控制需要排版的行和列数，也可设置行列之间的间距</p>
+<p>第二种栅格布局：栅格布局相比于网格布局功能更加强大</p>
+<p>基础写法：<a target="_blank" rel="noopener" href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V5/ts-container-gridrow-V5#gutteroption">https://developer.huawei.com/consumer/cn/doc/harmonyos-references-V5/ts-container-gridrow-V5#gutteroption</a></p>
+<p>网格布局 Grid（网格布局容器） - GridItem（网格布局项）</p>
+<p>栅格布局 GridRow（栅格布局容器） - GridCol（栅格布局项）</p>
+<p><strong>对比:</strong></p>
+<p><strong>1.GridRow 设行列数和间距更简单</strong></p>
+<p><strong>2.GridRow 支执点，响应式布局</strong></p>
+<p><strong>3.GridCol 支持元素排序，所占列数</strong></p>
+<p><img src="/../images/$%7Bfiilename%7D/1749802626783-b94bb36b-2136-4082-8b4c-2015d04ba52d.png" alt="img"></p>
+<h3 id="2-2-1栅格布局（GridRow-GridCol）"><a href="#2-2-1栅格布局（GridRow-GridCol）" class="headerlink" title="2.2.1栅格布局（GridRow&#x2F;GridCol）"></a>2.2.1栅格布局（GridRow&#x2F;GridCol）</h3><h4 id="设置断点（sm-md-lg）"><a href="#设置断点（sm-md-lg）" class="headerlink" title="设置断点（sm md lg）"></a>设置断点（sm md lg）</h4><p><strong>GridRowColumnOption</strong></p>
+<p>栅格在不同宽度设备类型下，栅格列数。</p>
+<p><strong>卡片能力：</strong> 从API version 9开始，该接口支持在ArkTS卡片中使用。</p>
+<p><strong>元服务API：</strong> 从API version 11开始，该接口支持在元服务中使用。</p>
+<p><strong>系统能力：</strong> SystemCapability.ArkUI.ArkUI.Full</p>
+<table>
+<thead>
+<tr>
+<th><strong>名称</strong></th>
+<th><strong>类型</strong></th>
+<th><strong>必填</strong></th>
+<th><strong>说明</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>xs</td>
+<td>number</td>
+<td>否</td>
+<td>在栅格大小为xs的设备上，栅格容器组件的栅格列数。</td>
+</tr>
+<tr>
+<td>sm</td>
+<td>number</td>
+<td>否</td>
+<td>在栅格大小为sm的设备上，栅格容器组件的栅格列数。</td>
+</tr>
+<tr>
+<td>md</td>
+<td>number</td>
+<td>否</td>
+<td>在栅格大小为md的设备上，栅格容器组件的栅格列数。</td>
+</tr>
+<tr>
+<td>lg</td>
+<td>number</td>
+<td>否</td>
+<td>在栅格大小为lg的设备上，栅格容器组件的栅格列数。</td>
+</tr>
+<tr>
+<td>xl</td>
+<td>number</td>
+<td>否</td>
+<td>在栅格大小为xl的设备上，栅格容器组件的栅格列数。</td>
+</tr>
+<tr>
+<td>xxl</td>
+<td>number</td>
+<td>否</td>
+<td>在栅格大小为xxl的设备上，栅格容器组件的栅格列数。</td>
+</tr>
+</tbody></table>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">@Entry</span><br><span class="line">@Component</span><br><span class="line">struct Index &#123;</span><br><span class="line">  build() &#123;</span><br><span class="line">    Column() &#123;</span><br><span class="line">      // 栅格布局 - columns的对应属性</span><br><span class="line">      // sm为当当前的设备为小型设备的时候（例如手机）：有2列</span><br><span class="line">      // md为当当前的设备为中型设备的时候（例如折叠屏）：有3列</span><br><span class="line">      // lg为当当前的设备为大型设备的时候（例如平板）：有4列</span><br><span class="line">      GridRow(&#123; columns: &#123; sm: 2, md: 3, lg: 4 &#125;, gutter: &#123; x: 10, y: 10 &#125; &#125;) &#123;</span><br><span class="line">        ForEach(Array.from(&#123; length: 10 &#125;), () =&gt; &#123;</span><br><span class="line">          GridCol() &#123;</span><br><span class="line">            Column() &#123;</span><br><span class="line">              Image($r(&#x27;app.media.ic_video_grid_5&#x27;))</span><br><span class="line">                .width(&#x27;100%&#x27;)</span><br><span class="line">                .aspectRatio(1072 / 616)</span><br><span class="line">                .borderRadius(10)</span><br><span class="line">              Text(&#x27;标题&#x27;)</span><br><span class="line">                .fontSize(14)</span><br><span class="line">            &#125;</span><br><span class="line">          &#125;</span><br><span class="line">        &#125;)</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="/../images/$%7Bfiilename%7D/1749804982569-0005cec5-5503-4083-8337-9f9cd18218bf.png" alt="img"><img src="/../images/$%7Bfiilename%7D/1749804989881-35d6964f-c504-44d2-9914-3bdfe4945658.png" alt="img"></p>
+<h5 id="监听断点变化"><a href="#监听断点变化" class="headerlink" title="监听断点变化"></a>监听断点变化</h5><p><a target="_blank" rel="noopener" href="https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-gridrow#onbreakpointchange">https://developer.huawei.com/consumer/cn/doc/harmonyos-references/ts-container-gridrow#onbreakpointchange</a></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">.onBreakpointChange((breakpoints: string) =&gt; &#123;</span><br><span class="line">  this.breakpoints = breakpoints</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p><img src="/../images/$%7Bfiilename%7D/1750173420069-73534d7c-3934-47bb-86e7-bbb6a94cdcd2.png" alt="img"></p>
+<h5 id="控制子元素所占列数"><a href="#控制子元素所占列数" class="headerlink" title="控制子元素所占列数"></a>控制子元素所占列数</h5><p>通过span控制所占列数</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line">@Entry</span><br><span class="line">@Component</span><br><span class="line">struct Index &#123;</span><br><span class="line">  @State breakpoints: string = &#x27;&#x27;</span><br><span class="line"></span><br><span class="line">  build() &#123;</span><br><span class="line">    Column() &#123;</span><br><span class="line">      // 栅格布局 - columns的对应属性</span><br><span class="line">      // sm为当当前的设备为小型设备的时候（例如手机）：有2列</span><br><span class="line">      // md为当当前的设备为中型设备的时候（例如折叠屏）：有3列</span><br><span class="line">      // lg为当当前的设备为大型设备的时候（例如平板）：有4列</span><br><span class="line">      GridRow(&#123;</span><br><span class="line">        columns: 12,</span><br><span class="line">        gutter: 10</span><br><span class="line">      &#125;) &#123;</span><br><span class="line">        ForEach(Array.from(&#123; length: 12 &#125;), () =&gt; &#123;</span><br><span class="line">          // 栅格布局 通过span控制所占列数</span><br><span class="line">          GridCol(&#123;</span><br><span class="line">            span: &#123;</span><br><span class="line">              sm: 6,</span><br><span class="line">              md: 4,</span><br><span class="line">              lg: 2</span><br><span class="line">            &#125;</span><br><span class="line">          &#125;) &#123;</span><br><span class="line">            Column() &#123;</span><br><span class="line">              Image($r(&#x27;app.media.ic_video_grid_5&#x27;))</span><br><span class="line">                .width(&#x27;100%&#x27;)</span><br><span class="line">                .aspectRatio(1072 / 616)</span><br><span class="line">                .borderRadius(10)</span><br><span class="line">              Text(&#x27;标题&#x27;)</span><br><span class="line">                .fontSize(14)</span><br><span class="line">            &#125;</span><br><span class="line">          &#125;</span><br><span class="line">        &#125;)</span><br><span class="line">      &#125;</span><br><span class="line">      .onBreakpointChange((breakpoints: string) =&gt; &#123;</span><br><span class="line">        this.breakpoints = breakpoints</span><br><span class="line">      &#125;)</span><br><span class="line"></span><br><span class="line">      Text(&#x27;当前断点&#x27; + this.breakpoints)</span><br><span class="line">        .fontSize(46)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="/../images/$%7Bfiilename%7D/1750177429665-2d2e2d9d-4f86-410f-a8b9-684e65466d18.png" alt="img"></p>
+<h3 id="2-2-2-断点"><a href="#2-2-2-断点" class="headerlink" title="2.2.2 断点"></a>2.2.2 断点</h3><h4 id="2-2-2-1-全局断点"><a href="#2-2-2-1-全局断点" class="headerlink" title="2.2.2.1 全局断点"></a>2.2.2.1 全局断点</h4><p><a target="_blank" rel="noopener" href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/responsive-layout">https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/responsive-layout</a></p>
+<p>核心三步走：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line">// MainAbility.ts</span><br><span class="line">import &#123; window, display &#125; from &#x27;@kit.ArkUI&#x27;</span><br><span class="line">import &#123; UIAbility &#125; from &#x27;@kit.AbilityKit&#x27;</span><br><span class="line"></span><br><span class="line">export default class MainAbility extends UIAbility &#123;</span><br><span class="line">  private curBp: string = &#x27;&#x27;</span><br><span class="line">  //...</span><br><span class="line">  // 根据当前窗口尺寸更新断点</span><br><span class="line">  private updateBreakpoint(windowWidth: number) :void&#123;</span><br><span class="line">    try &#123;</span><br><span class="line">      //  核心代码1: 将长度的单位由px换算为vp，（px除以像素密度得到vp）</span><br><span class="line">      let windowWidthVp = windowWidth / display.getDefaultDisplaySync().densityPixels</span><br><span class="line">      let newBp: string = &#x27;&#x27;</span><br><span class="line">      //  核心代码2: 基于窗口宽度vp值，判断当前设备属于哪个断点范围</span><br><span class="line">      if (windowWidthVp &lt; 320) &#123;</span><br><span class="line">        newBp = &#x27;xs&#x27;</span><br><span class="line">      &#125; else if (windowWidthVp &lt; 600) &#123;</span><br><span class="line">        newBp = &#x27;sm&#x27;</span><br><span class="line">      &#125; else if (windowWidthVp &lt; 840) &#123;</span><br><span class="line">        newBp = &#x27;md&#x27;</span><br><span class="line">      &#125; else &#123;</span><br><span class="line">        newBp = &#x27;lg&#x27;</span><br><span class="line">      &#125;</span><br><span class="line">      if (this.curBp !== newBp) &#123;</span><br><span class="line">        this.curBp = newBp</span><br><span class="line">        // 核心代码3: 使用状态变量记录当前断点值</span><br><span class="line">        AppStorage.setOrCreate(&#x27;currentBreakpoint&#x27;, this.curBp)</span><br><span class="line">      &#125;</span><br><span class="line">    &#125; catch(err) &#123;</span><br><span class="line">      console.log(&quot;getDisplayByIdSync failed err&quot; + err.code)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  onWindowStageCreate(windowStage: window.WindowStage) :void&#123;</span><br><span class="line">    windowStage.getMainWindow().then((windowObj) =&gt; &#123;</span><br><span class="line">      // 获取应用启动时的窗口尺寸</span><br><span class="line">      this.updateBreakpoint(windowObj.getWindowProperties().windowRect.width)</span><br><span class="line">      // 注册回调函数，监听窗口尺寸变化</span><br><span class="line">      windowObj.on(&#x27;windowSizeChange&#x27;, (windowSize)=&gt;&#123;</span><br><span class="line">        this.updateBreakpoint(windowSize.width)</span><br><span class="line">      &#125;)</span><br><span class="line">    &#125;);</span><br><span class="line">    // ...</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  //...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<ol>
+<li>页面中使用断点信息</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">@Entry</span><br><span class="line">@Component</span><br><span class="line">struct Demo11_login &#123;</span><br><span class="line">  @StorageProp(&#x27;currentBreakpoint&#x27;) curBp: string = &#x27;sm&#x27;</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="2-2-2-2-封装系统工具-BreakPointType"><a href="#2-2-2-2-封装系统工具-BreakPointType" class="headerlink" title="2.2.2.2 封装系统工具-BreakPointType"></a>2.2.2.2 封装系统工具-BreakPointType</h4><p>  封装系统工具-BreakPointType</p>
+<p>  * 1. 如果是 两种的情况：用 三元表达式 即可</p>
+<p>​    2. 如果是 多种的情况：用 三元表达式 就不太方便啦</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">// common/breakpointSystem.ets</span><br><span class="line">/*</span><br><span class="line">  封装系统工具-BreakPointType</span><br><span class="line">  * 1. 如果是 两种的情况：用 三元表达式 即可</span><br><span class="line">    2. 如果是 多种的情况：用 三元表达式 就不太方便啦</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line">export interface BreakPointTypeOption&lt;T&gt; &#123;</span><br><span class="line">  xs?: T</span><br><span class="line">  sm?: T</span><br><span class="line">  md?: T</span><br><span class="line">  lg?: T</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">export class BreakPointType&lt;T&gt; &#123;</span><br><span class="line">  options: BreakPointTypeOption&lt;T&gt;</span><br><span class="line"></span><br><span class="line">  constructor(option: BreakPointTypeOption&lt;T&gt;) &#123;</span><br><span class="line">    this.options = option</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  getValue(currentBreakPoint: string) &#123;</span><br><span class="line">    if (currentBreakPoint === &#x27;xs&#x27;) &#123;</span><br><span class="line">      return this.options.xs</span><br><span class="line">    &#125; else if (currentBreakPoint === &#x27;sm&#x27;) &#123;</span><br><span class="line">      return this.options.sm</span><br><span class="line">    &#125; else if (currentBreakPoint === &#x27;md&#x27;) &#123;</span><br><span class="line">      return this.options.md</span><br><span class="line">    &#125; else if (currentBreakPoint === &#x27;lg&#x27;) &#123;</span><br><span class="line">      return this.options.lg</span><br><span class="line">    &#125; else &#123;</span><br><span class="line">      return undefined</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">// 1. 导入BreakPointType</span><br><span class="line">import &#123; BreakPointType &#125; from &#x27;../commons/breakpointSystem&#x27;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">@Entry</span><br><span class="line">@Component</span><br><span class="line">struct Index &#123;</span><br><span class="line">  // 2. 通过 AppStorage 获取断点值</span><br><span class="line">  @StorageProp(&#x27;currentBreakpoint&#x27;) currentBreakpoint: string = &#x27;sm&#x27;</span><br><span class="line"></span><br><span class="line">  build() &#123;</span><br><span class="line">    Column() &#123;</span><br><span class="line">      Text(this.currentBreakpoint)</span><br><span class="line">    &#125;</span><br><span class="line">    .width(200)</span><br><span class="line">    .height(200)</span><br><span class="line">    .backgroundColor(</span><br><span class="line">      // 3. 实例化 设置不同断点的取值，并通过 getValue 根据当前断点值对应的值</span><br><span class="line">      new BreakPointType(&#123;</span><br><span class="line">        xs: Color.Red,</span><br><span class="line">        sm: Color.Yellow,</span><br><span class="line">        md: Color.Blue,</span><br><span class="line">        lg: Color.Green</span><br><span class="line">      &#125;).getValue(this.currentBreakpoint)</span><br><span class="line">    )</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="/../images/$%7Bfiilename%7D/1750329618821-2315d1c8-ac93-4c2c-a6b8-b722d1c51a1c.png" alt="img"></p>
+<p><img src="/../images/$%7Bfiilename%7D/1750329637384-bcaaa003-fa3b-4aac-853c-74baaed94092.png" alt="img"></p>
+<h5 id="案例说明："><a href="#案例说明：" class="headerlink" title="案例说明："></a>案例说明：</h5><p>运用了上面封装的工具类进行多种设备的界面适配（例如sm型号为两列 md&#x2F;lg型号为4列）</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line">import &#123; BreakPointType &#125; from &#x27;../commons/breakpointSystem&#x27;</span><br><span class="line"></span><br><span class="line">interface MovieItem &#123;</span><br><span class="line">  title: string</span><br><span class="line">  img: ResourceStr</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">@Entry</span><br><span class="line">@Component</span><br><span class="line">struct Index &#123;</span><br><span class="line">  items: MovieItem[] = [</span><br><span class="line">    &#123; title: &#x27;电影标题1&#x27;, img: $r(&#x27;app.media.ic_video_grid_1&#x27;) &#125;,</span><br><span class="line">    &#123; title: &#x27;电影标题2&#x27;, img: $r(&#x27;app.media.ic_video_grid_2&#x27;) &#125;,</span><br><span class="line">    &#123; title: &#x27;电影标题3&#x27;, img: $r(&#x27;app.media.ic_video_grid_3&#x27;) &#125;,</span><br><span class="line">    &#123; title: &#x27;电影标题4&#x27;, img: $r(&#x27;app.media.ic_video_grid_4&#x27;) &#125;,</span><br><span class="line">    &#123; title: &#x27;电影标题5&#x27;, img: $r(&#x27;app.media.ic_video_grid_5&#x27;) &#125;,</span><br><span class="line">    &#123; title: &#x27;电影标题6&#x27;, img: $r(&#x27;app.media.ic_video_grid_6&#x27;) &#125;,</span><br><span class="line">    &#123; title: &#x27;电影标题7&#x27;, img: $r(&#x27;app.media.ic_video_grid_7&#x27;) &#125;,</span><br><span class="line">    &#123; title: &#x27;电影标题8&#x27;, img: $r(&#x27;app.media.ic_video_grid_8&#x27;) &#125;,</span><br><span class="line">    &#123; title: &#x27;电影标题9&#x27;, img: $r(&#x27;app.media.ic_video_grid_9&#x27;) &#125;,</span><br><span class="line">    &#123; title: &#x27;电影标题10&#x27;, img: $r(&#x27;app.media.ic_video_grid_10&#x27;) &#125;,</span><br><span class="line">  ]</span><br><span class="line">  @StorageProp(&#x27;currentBreakpoint&#x27;) currentBreakpoint: string = &#x27;sm&#x27;</span><br><span class="line"></span><br><span class="line">  build() &#123;</span><br><span class="line">    Grid() &#123;</span><br><span class="line">      ForEach(this.items, (item: MovieItem) =&gt; &#123;</span><br><span class="line">        GridItem() &#123;</span><br><span class="line">          Column(&#123; space: 10 &#125;) &#123;</span><br><span class="line">            Image(item.img)</span><br><span class="line">              .borderRadius(10)</span><br><span class="line">            Text(item.title)</span><br><span class="line">              .width(&#x27;100%&#x27;)</span><br><span class="line">              .fontSize(20)</span><br><span class="line">              .fontWeight(600)</span><br><span class="line"></span><br><span class="line">          &#125;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;)</span><br><span class="line">    &#125;</span><br><span class="line">    .columnsTemplate(new BreakPointType(&#123;</span><br><span class="line">      xs: &#x27;1fr 1fr&#x27;,</span><br><span class="line">      sm: &#x27;1fr 1fr&#x27;,</span><br><span class="line">      md: &#x27;1fr 1fr 1fr&#x27;,</span><br><span class="line">      lg: &#x27;1fr 1fr 1fr 1fr&#x27;</span><br><span class="line">    &#125;).getValue(this.currentBreakpoint)</span><br><span class="line">    )</span><br><span class="line">    .rowsGap(10)</span><br><span class="line">    .columnsGap(10)</span><br><span class="line">    .padding(10)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="/../images/$%7Bfiilename%7D/1750341871092-76a9896f-07bf-467a-9fc2-d97c060459bc.png" alt="img"><img src="/../images/$%7Bfiilename%7D/1750341876551-9aaf451a-fb01-4747-8321-40a2df4f227d.png" alt="img"></p>
+<h3 id="2-2-3-媒体查询"><a href="#2-2-3-媒体查询" class="headerlink" title="2.2.3 媒体查询"></a>2.2.3 媒体查询</h3><p><a target="_blank" rel="noopener" href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/arkts-layout-development-media-query-V5">https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/arkts-layout-development-media-query-V5</a></p>
+<p>核心步骤：创建监听器 - 添加回调函数（当result中的matches值为true时表示匹配成功）此时可以进行变量的赋值操作</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">// 媒体查询</span><br><span class="line">import &#123; mediaquery &#125; from &#x27;@kit.ArkUI&#x27;</span><br><span class="line"></span><br><span class="line">// 1. 创建监听器</span><br><span class="line">const listenerXS: mediaquery.MediaQueryListener = mediaquery.matchMediaSync(&#x27;(0vp&lt;=width&lt;320vp)&#x27;);</span><br><span class="line"></span><br><span class="line">@Entry</span><br><span class="line">@Component</span><br><span class="line">struct Index &#123;</span><br><span class="line">  // 注册监听器</span><br><span class="line">  aboutToAppear(): void &#123;</span><br><span class="line">    // 添加回调函数</span><br><span class="line">    listenerXS.on(&#x27;change&#x27;, (result: mediaquery.MediaQueryResult) =&gt; &#123;</span><br><span class="line">      console.log(&#x27;listenerXS result:&#x27;, JSON.stringify(result))</span><br><span class="line">    &#125;)</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  build() &#123;</span><br><span class="line">    Column() &#123;</span><br><span class="line">      Text(&#x27;hello world&#x27;)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="/../images/$%7Bfiilename%7D/1750348510146-8ef61041-2376-4c0a-bede-7037f70c5ed7.png" alt="img"></p>
+<p><strong>listenerXS result: {“matches”:false,”media”:”(0vp&lt;&#x3D;width&lt;320vp)”}</strong></p>
+<p><strong>说明：match进行匹配 - 判断是否符合监听器括号中的条件（因为开的是平板所以输出为false）</strong></p>
+<p><strong>media为输出监听器的条件</strong></p>
+<p><strong>为了提高性能，在界面被销毁时应该移除监听器</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">aboutToDisappear(): void &#123;</span><br><span class="line">  // 移除监听器</span><br><span class="line">  listenerXS.off(&#x27;change&#x27;)</span><br><span class="line">  listenerSM.off(&#x27;change&#x27;)</span><br><span class="line">  listenerMD.off(&#x27;change&#x27;)</span><br><span class="line">  listenerLG.off(&#x27;change&#x27;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="2-2-4-总结概括"><a href="#2-2-4-总结概括" class="headerlink" title="2.2.4 总结概括"></a>2.2.4 总结概括</h3><p><img src="/../images/$%7Bfiilename%7D/1750405507042-c80ed921-7ed4-49f0-a42b-799631ce7c63.png" alt="img"></p>
+<h1 id="三、功能级一多"><a href="#三、功能级一多" class="headerlink" title="三、功能级一多"></a>三、功能级一多</h1><p>不同设备的系统能力有差异，如智能穿戴设备是否具备定位能力、智慧屏是否具备摄像头等，功能如何兼容。</p>
+<p><strong>什么是系统能力</strong></p>
+<p>系统能力（即SystemCapability，缩写为SysCap）指操作系统中每一个相对独立的特性，如蓝牙，WIFI，NFC，摄像头等，都是系统能力之一。每个系统能力对应多个API，随着目标设备是否支持该系统能力共同存在或消失。</p>
+<h2 id="3-1-canIUse判断"><a href="#3-1-canIUse判断" class="headerlink" title="3.1 canIUse判断"></a>3.1 canIUse判断</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">if (canIUse(&quot;能力集的名字&quot;)) &#123;</span><br><span class="line">  // 正常调用</span><br><span class="line">&#125; else &#123;</span><br><span class="line">  // 提示用户</span><br><span class="line">  console.log(&quot;该设备不支持SystemCapability.Communication.NFC.Core&quot;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>eg1：判断是否具有NFC系统功能</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">// 如果某个系统能力没有写入应用的要求能力集中，那么在使用前需要判断设备是否支持该系统能力。</span><br><span class="line">aboutToAppear(): void &#123;</span><br><span class="line">  // 方法1：使用canUse接口判断设备是否支持某系统能力</span><br><span class="line">  // TODO if (canIUse(&quot;能力集的名字&quot;))</span><br><span class="line">  if (canIUse(&quot;SystemCapability.Communication.NFC.Core&quot;)) &#123;</span><br><span class="line">    console.log(&quot;该设备支持SystemCapability.Communication.NFC.Core&quot;);</span><br><span class="line">  &#125; else &#123;</span><br><span class="line">    console.log(&quot;该设备不支持SystemCapability.Communication.NFC.Core&quot;);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>eg2：display.isFoldable() 这个 api 并不是每个设备都可以使用，在调用之前就可以先判断一下</p>
+<p><img src="/../images/$%7Bfiilename%7D/1750587982873-79826810-f608-4f4b-aeb8-a8e4a34ee185.png" alt="img"></p>
+<p>isFoldable不是所有设备都可以 - 所以会显示高亮效果</p>
+<p>调用canIUse接口判断是否具有该系统功能，可以将鼠标移动至isFoldable处查看如何在canIUse中写系统功能</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">// display.isFoldable()判断设备是否为折叠屏</span><br><span class="line">if (canIUse(&#x27;SystemCapability.Window.SessionManager&#x27;)) &#123;</span><br><span class="line">  display.isFoldable()</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="/../images/$%7Bfiilename%7D/1750587922474-b21cf57b-1fab-4105-9f98-7da4554bacb2.png" alt="img"></p>
+<h1 id="四、工程级一多"><a href="#四、工程级一多" class="headerlink" title="四、工程级一多"></a>四、工程级一多</h1><h2 id="4-1-概念"><a href="#4-1-概念" class="headerlink" title="4.1 概念"></a>4.1 概念</h2><p>一多模式下，官方推荐在开发过程中采用”三层工程架构”，其实就是<strong>把项目拆分成不同类型的模块，再通过模块之间的引用组合，最终实现应用功能</strong>，拆分规范如下：</p>
+<ul>
+<li>commons(公共能力层)：用于存放<strong>公共</strong>基础能力合集，比如工具库，公共配置等</li>
+<li>features(基础特性层)：用于存放应用中相对独立的各个功能的<strong>UI</strong>以及业务逻辑实现</li>
+<li>products(产品定制层)：用于针对不同<strong>设备</strong>形态进行功能和特性集成，作为应用入口</li>
+<li><a target="_blank" rel="noopener" href="https://developer.huawei.com/consumer/cn/doc/best-practices-V5/bpta-layered-architecture-design-V5">https://developer.huawei.com/consumer/cn/doc/best-practices-V5/bpta-layered-architecture-design-V5</a></li>
+</ul>
+<p><img src="/../images/$%7Bfiilename%7D/1717149305821-e77973cd-8d42-416f-82c6-924946c15dc2.png" alt="img"></p>
+<h2 id="4-2-选择合适的包类型"><a href="#4-2-选择合适的包类型" class="headerlink" title="4.2 选择合适的包类型"></a>4.2 选择合适的包类型</h2><p>HAP、HAR、HSP三者的功能和使用场景总结对比如下：</p>
+<table>
+<thead>
+<tr>
+<th><strong>Module类型</strong></th>
+<th><strong>包类型</strong></th>
+<th><strong>说明</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ability</td>
+<td><a target="_blank" rel="noopener" href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/hap-package-V5">HAP</a></td>
+<td>应用的功能模块，可以独立安装和运行，必须包含一个entry类型的HAP，可选包含一个或多个feature类型的HAP。</td>
+</tr>
+<tr>
+<td>Static Library</td>
+<td><a target="_blank" rel="noopener" href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/har-package-V5">HAR</a></td>
+<td>静态共享包，编译态复用。- 支持应用内共享，也可以发布后供其他应用使用。- 作为二方库，发布到<a target="_blank" rel="noopener" href="https://ohpm.openharmony.cn/">OHPM</a>私仓，供公司内部其他应用使用。- 作为三方库，发布到<a target="_blank" rel="noopener" href="https://ohpm.openharmony.cn/">OHPM</a>中心仓，供其他应用使用。- 多包（HAP&#x2F;HSP）引用相同的HAR时，会造成多包间代码和资源的重复拷贝，从而导致应用包膨大。- 注意：<a target="_blank" rel="noopener" href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/har-package-V5#%E7%BC%96%E8%AF%91">编译HAR</a>时，建议开启混淆能力，保护代码资产。</td>
+</tr>
+<tr>
+<td>Shared Library</td>
+<td><a target="_blank" rel="noopener" href="https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/in-app-hsp-V5">HSP</a></td>
+<td>动态共享包，运行时复用。- 当前仅支持应用内共享。- 当多包（HAP&#x2F;HSP）同时引用同一个共享包时，采用HSP替代HAR，可以避免HAR造成的多包间代码和资源的重复拷贝，从而减小应用包大小。</td>
+</tr>
+</tbody></table>
+<p><strong>1&gt; HAP：应用的功能模块，可以独立安装和使用（必须包含一个entry + 可选一个或者多个feature）</strong></p>
+<p><strong>2&gt; HAR：静态共享包，编译时复用（应用内共享，可发布后供其他应用使用）（三方库，公司私仓）</strong></p>
+<p><strong>tip：如果远程仓库下载不下来可以直接在该文件中进行配置：</strong></p>
+<p><img src="/../images/$%7Bfiilename%7D/1750603118657-47dce06d-81f3-44ac-8ea8-6594b7fd8ba7.png" alt="img"></p>
+<p><strong>配置完毕即可查看下载下来的包：</strong></p>
+<p><img src="/../images/$%7Bfiilename%7D/1750603196720-56458b87-7729-4544-b266-7f96e9daf3e9.png" alt="img"></p>
+<p>注意：多包（HAP&#x2F;HSP）引用相同的HAR时，会造成多包间代码和资源的重复拷贝，从而导致应用包膨大。</p>
+<p>建议下载到commons模块，因为features和products都可以进行调用（如果下载到products模块只能在products进行使用，commons或者features模块想要进行使用还需要重新进行下载，导致代码冗余）</p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">太阳神小赖</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://Andy-lucky2005.github.io/2025/06/24/%E4%B8%80%E5%A4%9A/">https://Andy-lucky2005.github.io/2025/06/24/%E4%B8%80%E5%A4%9A/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">太阳神小赖</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.jpg" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2025/06/24/%E4%B8%80%E5%A4%9A/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/featureimages/30.jpg" class="responsive-img" alt="HarmonyOS一多学习">
+                        
+                        <span class="card-title">HarmonyOS一多学习</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            一次开发，多端部署
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-06-24
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            太阳神小赖
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2025/05/22/%E9%B8%BF%E8%92%99%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/featureimages/29.jpg" class="responsive-img" alt="鸿蒙主题设置">
+                        
+                        <span class="card-title">鸿蒙主题设置</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            HarmonyOS深浅色主题自定义
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-05-22
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            太阳神小赖
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2025</span>
+            
+            <span id="year">2025</span>
+            <a href="/about" target="_blank">太阳神小赖</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+    <script type="text/javascript">
+        //只在桌面版网页启用特效
+        var windowWidth = $(window).width();
+        if (windowWidth > 768) {
+            document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
+        }
+        </script>
+    <!-- <script src= "/themes/hexo-theme-matery/source/js/fireworks.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/xuehuapiaoluo.js"></script> -->
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+	
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":true},"log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+
+</html>
